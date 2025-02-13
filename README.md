@@ -13,17 +13,17 @@ The current store-to-office allocation follows a nearest-office approach, which 
 * Our objective was to develop an optimization model that assigns 50 stores to regional offices cost-effectively while ensuring that service demands do not exceed office capacity.
 
 ## Methodology
-*Optimization Model: Developed using AMPL, incorporating constraints for travel costs, service capacity, and geographic feasibility.
-*Cost Considerations: Included mileage costs ($0.585 per mile) and employee salary costs ($26 per hour of travel time).
-*Decision Variables: Ensured each store is assigned to exactly one office while balancing workload.
-*Refinement: Applied manual adjustments to enhance geographic feasibility and reduce operational costs.
-*Results & Insights
-*The initial model reduced total operational costs to $195,479.31 but resulted in geographically inefficient assignments.
-*Manual adjustments improved cost efficiency and geographic alignment, further lowering costs to $194,130.69.
-*A hybrid approach combining geographic constraints and manual adjustments was recommended for optimal realignment.
+* Optimization Model: Developed using AMPL, incorporating constraints for travel costs, service capacity, and geographic feasibility.
+* Cost Considerations: Included mileage costs ($0.585 per mile) and employee salary costs ($26 per hour of travel time).
+* Decision Variables: Ensured each store is assigned to exactly one office while balancing workload.
+* Refinement: Applied manual adjustments to enhance geographic feasibility and reduce operational costs.
+* Results & Insights
+* The initial model reduced total operational costs to $195,479.31 but resulted in geographically inefficient assignments.
+* Manual adjustments improved cost efficiency and geographic alignment, further lowering costs to $194,130.69.
+* A hybrid approach combining geographic constraints and manual adjustments was recommended for optimal realignment.
 
 ## Key Takeaways
-*Mathematical optimization is a powerful tool for logistics and operational efficiency.
-*Manual adjustments can enhance algorithmic solutions by addressing real-world constraints.
-*Future improvements could explore dynamic penalties for distant assignments or capacity expansion in high-demand regions.
+* Mathematical optimization is a powerful tool for logistics and operational efficiency.
+* Manual adjustments can enhance algorithmic solutions by addressing real-world constraints.
+* Future improvements could explore dynamic penalties for distant assignments or capacity expansion in high-demand regions.
 
